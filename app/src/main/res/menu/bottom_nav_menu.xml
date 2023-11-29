@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/tittle_home" />
+
+    <item
+        android:id="@+id/navigation_liked"
+        android:icon="@drawable/ic_liked"
+        android:title="@string/tittle_liked" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_daftartugas"-->
+<!--        android:checkable="false" />-->
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/tittle_notifications" />
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/tittle_menu" />
+
+</menu>

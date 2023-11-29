@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.rencanapanen.TambahRencanaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:elevation="4dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginBottom="32dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="@string/tittle_tambahrencana" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/jenis_panen"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etJenisPanen">
+        </EditText>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/perkiraan_panen"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etPerkiraanPanen">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ukuran_panen"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etUkuranPanen">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tonase_panen"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etTonasePanen">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usia_budidaya"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etUsiaBudidaya">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/harga_harapan"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etHargaHarapan">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lokasi_budidaya"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etLokasiBudidaya">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/custom_id"
+            android:layout_marginVertical="4dp"
+            android:id="@+id/etCustomId">
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="64dp"
+            >
+            <Button
+                android:id="@+id/buttonSubmitRencana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/btn_simpan"
+                android:textSize="18sp"
+                android:backgroundTint="@color/orange_700"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_primary">
+            </Button>
+            <Button
+                android:id="@+id/buttonKembaliRencana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kembali"
+                android:textSize="18sp"
+                android:backgroundTint="@color/orange_700"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_primary">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

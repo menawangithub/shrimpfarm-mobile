@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_18px"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="28dp"
+        android:elevation="12dp">
+        <TextView
+            android:id="@+id/rencana_customid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:text="@string/tambak_nama"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_semibold"
+            />
+        <TextView
+            android:id="@+id/rencana_tanggalpanen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tambak_luaskolam"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/poppins_regular"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    android:background="@color/bgscreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle_detailtambak"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginVertical="32dp"
+        />
+
+    <!-- TextView for displaying 'Custom ID' -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle_customid"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#969696"/>
+
+    <!-- TextView for displaying 'Custom ID' -->
+    <TextView
+        android:id="@+id/tvCustomId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle_customid"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+    <!-- TextView for displaying the 'Keterangan' -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle_namatambak"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="16sp"
+        android:textColor="#969696"/>
+
+
+    <TextView
+        android:id="@+id/tvKeterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_namatambak"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <!-- TextView for displaying 'Luas Kolam' -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/tittle_luaskolam"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="16sp"
+        android:textColor="#969696"/>
+
+    <TextView
+        android:id="@+id/tvLuasKolam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_luaskolam"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <!-- TextView for displaying 'Jumlah Ruas Kolam' -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/tittle_ruaskolam"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="16sp"
+        android:textColor="#969696" />
+
+    <TextView
+        android:id="@+id/tvJumlahRuasKolam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_luaskolam"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
